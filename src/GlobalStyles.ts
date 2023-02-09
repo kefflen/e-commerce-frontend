@@ -6,4 +6,25 @@ export const GlobalStyles = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
   }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .app {
+    height: 100vh;
+    background-color: ${({ theme }) => theme.colors.background};
+  }
+
+  .primary {
+    background-color: ${({ theme }) => theme.colors.primary};
+
+  }
+
+  .secondary {
+    background-color: ${({ theme }) => theme.colors.secondary};
+    color: ${({ theme }) => theme.colors.textOnSecondary};
+  }
+  
 `
