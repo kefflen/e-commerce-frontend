@@ -1,7 +1,6 @@
-import "styled-components";
-import theme from ".";
+import 'styled-components'
 
-declare module "styled-components" {
+declare module 'styled-components' {
   type ThemeType = {
     primary: string
     secondary: string
