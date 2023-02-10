@@ -26,5 +26,9 @@ export const GlobalStyles = createGlobalStyle`
     background-color: ${({ theme }) => theme.colors.secondary};
     color: ${({ theme }) => theme.colors.textOnSecondary};
   }
+
+  .attention-text {
+    color: ${({ theme }) => theme.colors.attention};
+  }
   
 `
