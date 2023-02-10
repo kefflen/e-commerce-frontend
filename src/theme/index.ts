@@ -1,6 +1,5 @@
 import { DefaultTheme } from 'styled-components'
 
-
 export const theme: DefaultTheme = {
   colors: {
     primary: '#febd69',
@@ -8,6 +7,6 @@ export const theme: DefaultTheme = {
     lightSecondary: '#232f3e;',
     background: '#dedede',
     border: '#3b4149',
-    textOnSecondary: 'white'
-  }
+    textOnSecondary: 'white',
+  },
 }

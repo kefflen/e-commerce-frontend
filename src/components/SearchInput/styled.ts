@@ -3,12 +3,12 @@ import styled from 'styled-components'
 export const Container = styled.div`
   display: flex;
   flex: 1;
-  border-radius: .2em;
+  border-radius: 0.2em;
   overflow: hidden;
 
   input {
     flex: 1;
-    padding: .75em;
+    padding: 0.75em;
     font-size: 1em;
     border: none;
     outline: none;
