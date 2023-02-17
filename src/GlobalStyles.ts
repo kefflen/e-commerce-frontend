@@ -13,8 +13,9 @@ export const GlobalStyles = createGlobalStyle`
   }
 
   .app {
-    height: 100vh;
+    min-height: 100vh;
     background-color: ${({ theme }) => theme.colors.background};
+    padding-bottom: 5em;
   }
 
   .primary {
